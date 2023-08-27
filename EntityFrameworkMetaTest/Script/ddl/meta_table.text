@@ -1,0 +1,5 @@
+﻿CREATE TABLE public.meta_table (
+	id int NOT NULL GENERATED ALWAYS AS IDENTITY,
+	extid varchar NOT NULL,
+	json_text json NOT NULL
+);

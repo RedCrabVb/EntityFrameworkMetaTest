@@ -1,0 +1,21 @@
+﻿insert into meta_table (extid, json_text) values ('table1', '{
+	"tablename": "table1",
+	"storage": "postgres1",
+	"columns": [
+		{
+			"field": "id",
+			"type": "number",
+			"key": true
+		},
+		{
+			"field": "name_1",
+			"type": "string",
+			"key": false
+		},
+		{
+			"field": "value_1",
+			"type": "number",
+			"key": false
+		}
+	]
+}'::json)
